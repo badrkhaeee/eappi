@@ -1,0 +1,141 @@
+header {
+    position: unset;
+    left: unset;
+    right: unset;
+    top: unset;
+    margin-left: -1rem;
+    margin-right: -1rem;
+}
+
+/* 
+KODE WARNA TEKS
+Biru: 1689A8
+Hijau: 63AC55
+Oren: EBA03A
+*/
+body {
+    background-image: url('../images/bg-img-ppi.png');
+    background-color: unset;
+}
+
+#header-top {
+    display: flex;
+    justify-content: center;
+    background-image: url('../images/header-bg.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    /* background-color: white; */
+}
+
+#header-top img {
+    width: 74rem;
+    padding: 1rem;
+}
+
+#header-left {
+    top: unset;
+    left: unset;
+    display: flex;
+}
+
+#header-bottom {
+    top: 9.4rem;
+    position: absolute;
+    left: 0;
+    right: 0;
+    /* background-color: #45896A; */
+    background-color: #8fbc8f;
+    padding: 0.5rem;
+    margin: -1rem;
+}
+
+.header-buttons {
+    left: 8rem;
+    position: absolute;
+}
+
+.logout-text {
+    border-style: none;
+    font-size: 1rem;
+    background-color: transparent;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.menu-text {
+    font-size: 1rem;
+    color: white;
+}
+
+.hamburger-dropdown, .search-dropdown {
+    display: inline-flex;
+    align-items: center;
+}
+
+div.hamburger-contextmenu-arrow-bottom {
+    left: -25px;
+}
+
+div.hamburger-contextmenu-arrow-top {
+    left: -25px;
+}
+
+.contextmenu-content {
+    top: 3.2rem;
+    left: 0rem;
+}
+
+div#hamburger-menu {
+    left: 7.5rem;
+    position: absolute;
+}
+
+div.hamburger-contextmenu-arrow-bottom {
+    top: 30px;
+}
+
+div.hamburger-contextmenu-arrow-top {
+    top: 23px;
+}
+
+div#search-button {
+    padding-top: 0.3rem;
+}
+
+#main-navbar {
+    top: 11.7rem !important;
+    margin-left: 0rem;
+    margin-right: 0rem;
+}
+
+#main-contents {
+    top: 14rem !important;
+    margin-left: 0rem;
+    margin-right: 0rem;
+}
+
+#main-statusbar {
+    margin-left: 0rem;
+    margin-right: 0rem;
+    width: unset;
+}
+
+#webea-main-content {
+    padding: 1rem;
+}
+
+.d-none {
+    display: none;
+}
+
+#navigation {
+    display: inline-blok;
+    margin-left: 10px;
+    margin-right: 7px;
+    padding-top: 7px;
+}
+.nav-item {
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 10px;
+}

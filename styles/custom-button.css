@@ -1,0 +1,43 @@
+.btn {
+    white-space: nowrap;
+    height: 225px;
+	width: 175px;
+    float: right;
+    border: 0;
+    color: #FFF;
+    cursor: pointer;
+    margin: 0 0 6px 6px;
+    border-radius: 6px;
+}
+
+.btn-danger {
+	background-color: #AE2727;
+}
+
+.btn-dark {
+	background-color: #000000;
+}
+
+.btn-app-survey {
+	background-color: #5984D2;
+}
+
+.btn-dev-survey {
+	background-color: #4366A4;
+}
+
+.btn-danger:hover {
+	background-color: #e5383b;
+}
+
+.btn-dark:hover {
+	background-color: #343a40;
+}
+
+.btn-app-survey:hover {
+	background-color: #468faf;
+}
+
+.btn-dev-survey:hover {
+	background-color: #3a6ea5;
+}
